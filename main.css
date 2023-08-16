@@ -313,13 +313,14 @@ h1 small {
 }
 
 #story ul li .img-hold::before {
-	content: url('shape.png');
+	content: url('./shape.png');
 	width: 125%;
 	height: 125%;
 	position: absolute;
 	inset: 25% -35% auto auto;
 	transform: translate(-50%, -50%);
 	z-index: -1;
+
 	rotate: 10deg;
 	scale: .8;
 	-webkit-transform: translate(-50%, -50%);
@@ -391,7 +392,7 @@ h1 small {
 	height: 100vh;
 	position: relative;
 	overflow: hidden;
-	background: transparent url('background.jpeg') no-repeat center / cover;
+	background: transparent url('./background.jpeg') no-repeat center / cover;
 }
 #invitation::after {
 	content: '';
@@ -487,7 +488,7 @@ h2.names {
 }
 .save-date::after,
 .save-date::before {
-	content: url('pattern.svg');
+	content: url('./pattern.svg');
 	position: absolute;
 	inset: -75px -75px auto auto;
 	rotate: 5deg;
@@ -556,7 +557,7 @@ footer .part:nth-child(2) span {
 }
 footer .part:nth-child(2) span::after,
 footer .part:nth-child(2) span::before {
-	content: url('pattern.svg');
+	content: url('./pattern.svg');
 	position: absolute;
 	inset: -55% 15px auto auto;
 	rotate: 15deg;
