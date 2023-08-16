@@ -313,7 +313,7 @@ h1 small {
 }
 
 #story ul li .img-hold::before {
-	content: url('../shape.png');
+	content: url('shape.png');
 	width: 125%;
 	height: 125%;
 	position: absolute;
