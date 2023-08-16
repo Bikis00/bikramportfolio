@@ -391,7 +391,7 @@ h1 small {
 	height: 100vh;
 	position: relative;
 	overflow: hidden;
-	background: transparent url('../background.jpeg') no-repeat center / cover;
+	background: transparent url('background.jpeg') no-repeat center / cover;
 }
 #invitation::after {
 	content: '';
@@ -487,7 +487,7 @@ h2.names {
 }
 .save-date::after,
 .save-date::before {
-	content: url('../pattern.svg');
+	content: url('pattern.svg');
 	position: absolute;
 	inset: -75px -75px auto auto;
 	rotate: 5deg;
@@ -556,7 +556,7 @@ footer .part:nth-child(2) span {
 }
 footer .part:nth-child(2) span::after,
 footer .part:nth-child(2) span::before {
-	content: url('../pattern.svg');
+	content: url('pattern.svg');
 	position: absolute;
 	inset: -55% 15px auto auto;
 	rotate: 15deg;
